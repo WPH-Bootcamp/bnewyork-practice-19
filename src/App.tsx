@@ -1,3 +1,4 @@
+import RadixDialogDemo from "./02-RadixDialog";
 import "./index.css";
 
 type LessonProps = {
@@ -29,6 +30,13 @@ function App() {
           <em>shadcn/ui</em>, di atas <strong>Tailwind</strong> dari Week 3.
           Goal: ngerti pattern UI industri yang dipake di product nyata.
         </p>
+
+        <Lesson
+          title="02 — Radix UI: Dialog (HEADLESS, raw)"
+          desc="Konsep headless component. Logic accessibility datang gratis dari Radix, style kita yang racik."
+        >
+          <RadixDialogDemo />
+        </Lesson>
       </div>
     </div>
   );
