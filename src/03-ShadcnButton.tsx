@@ -7,6 +7,10 @@ export default function ShadcnButton() {
       <Button variant="outline">Testing button</Button>
       <Button variant="secondary">Testing button</Button>
       <Button variant="link">Testing button</Button>
+      <Button variant="henry">button henry</Button>
+      <Button size="sm" variant="henry">
+        button henry
+      </Button>
     </div>
   );
 }
