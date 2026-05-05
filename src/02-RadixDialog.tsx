@@ -1,5 +1,4 @@
 import * as Dialog from "@radix-ui/react-dialog";
-import { Button } from "./components/ui/button";
 
 export default function RadixDialogDemo() {
   return (
@@ -26,7 +25,6 @@ export default function RadixDialogDemo() {
               <Dialog.Close className="px-3 py-1.5 rounded-md border border-red-700 hover:bg-red-800 text-slate-200 text-sm">
                 Hapus
               </Dialog.Close>
-              <Button>Hallo</Button>
             </div>
           </Dialog.Content>
         </Dialog.Portal>

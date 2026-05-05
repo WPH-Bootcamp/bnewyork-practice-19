@@ -1,4 +1,5 @@
 import RadixDialogDemo from "./02-RadixDialog";
+import ShadcnButton from "./03-ShadcnButton";
 
 type LessonProps = {
   title: string;
@@ -35,6 +36,13 @@ function App() {
           desc="Konsep headless component. Logic accessibility datang gratis dari Radix, style kita yang racik."
         >
           <RadixDialogDemo />
+        </Lesson>
+
+        <Lesson
+          title="03 — Shadcn Button"
+          desc="Component dengan Shadcn Button"
+        >
+          <ShadcnButton />
         </Lesson>
       </div>
     </div>
