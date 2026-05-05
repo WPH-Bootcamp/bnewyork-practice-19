@@ -1,5 +1,4 @@
 import RadixDialogDemo from "./02-RadixDialog";
-import "./index.css";
 
 type LessonProps = {
   title: string;
